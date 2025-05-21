@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1755520_collec_0_apply_computer_search_profile_default_spell_check_dictionary">b4f69a2683192210cfe0a470ceaad3fa</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="apply-computer Search Profile">14e61a26f71922109230b387a9f69d57</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2025-05-07 05:32:49</sys_created_on>
+        <sys_id>01f69a2683192210cfe0a470ceaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1755520_collec_0_apply_computer_search_profile_default_spell_check_dictionary.apply-computer Search Profile</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_01f69a2683192210cfe0a470ceaad3fe</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2025-05-07 05:32:49</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

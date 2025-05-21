@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="apply">6ebdae7a835d6210cfe0a470ceaad3d5</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-08 02:43:32</sys_created_on>
+        <sys_id>cfc97e7a839d6210cfe0a470ceaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>apply.The ACME North America IT Department</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_cfc97e7a839d6210cfe0a470ceaad399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-08 02:43:32</sys_updated_on>
+        <user_criteria display_value="The ACME North America IT Department">25431493ff4221009b20ffffffffffe0</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</application>
+        <file_path/>
+        <instance_id>e7f2896e3b9d6290c55a348aa4e45abe</instance_id>
+        <instance_name>dev346881</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_cfc97e7a839d6210cfe0a470ceaad399</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="apply">6ebdae7a835d6210cfe0a470ceaad3d5</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-08 02:43:32</sys_created_on><sys_id>cfc97e7a839d6210cfe0a470ceaad399</sys_id><sys_mod_count>0</sys_mod_count><sys_name>apply.The ACME North America IT Department</sys_name><sys_package display_value="Collection Tracker" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package><sys_policy/><sys_scope display_value="Collection Tracker">4bfda16683552210cfe0a470ceaad3f8</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_cfc97e7a839d6210cfe0a470ceaad399</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-08 02:43:32</sys_updated_on><user_criteria display_value="The ACME North America IT Department">25431493ff4221009b20ffffffffffe0</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1176503074</payload_hash>
+        <record_name>apply.The ACME North America IT Department</record_name>
+        <reverted_from/>
+        <source>300ee16683552210cfe0a470ceaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-08 02:43:32</sys_created_on>
+        <sys_id>c7c97e7a839d6210cfe0a470ceaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196adc6dac80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-08 02:43:32</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>0bc97e7a959d62108ffaa25051929c9c</update_guid>
+        <update_guid_history>0bc97e7a959d62108ffaa25051929c9c:1176503074</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="apply.The ACME North America IT Department">15d9be7a839d6210cfe0a470ceaad37b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-08 02:43:41</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>67f39ceab3524e58a0a23fe074f4d021</sys_id>
+        <sys_metadata>cfc97e7a839d6210cfe0a470ceaad399</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>apply.The ACME North America IT Department</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_scope_delete display_value="">301fa376781f416c8fa58546d36dc510</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_cfc97e7a839d6210cfe0a470ceaad399</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_cfc97e7a839d6210cfe0a470ceaad399">c7c97e7a839d6210cfe0a470ceaad39d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-08 02:43:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

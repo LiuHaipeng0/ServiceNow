@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="apply">6ebdae7a835d6210cfe0a470ceaad3d5</sc_cat_item>
+        <sc_category display_value="Laptops">59f586f23731300054b6a3549dbe5db7</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-08 02:20:41</sys_created_on>
+        <sys_id>5c94fab2839d6210cfe0a470ceaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptops.apply</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_update_name>sc_cat_item_category_5c94fab2839d6210cfe0a470ceaad326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-08 02:20:41</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</application>
+        <file_path/>
+        <instance_id>e7f2896e3b9d6290c55a348aa4e45abe</instance_id>
+        <instance_name>dev346881</instance_name>
+        <name>sc_cat_item_category_5c94fab2839d6210cfe0a470ceaad326</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="apply">6ebdae7a835d6210cfe0a470ceaad3d5</sc_cat_item><sc_category display_value="Laptops">59f586f23731300054b6a3549dbe5db7</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-08 02:20:41</sys_created_on><sys_id>5c94fab2839d6210cfe0a470ceaad326</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Laptops.apply</sys_name><sys_package display_value="Collection Tracker" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package><sys_policy/><sys_scope display_value="Collection Tracker">4bfda16683552210cfe0a470ceaad3f8</sys_scope><sys_update_name>sc_cat_item_category_5c94fab2839d6210cfe0a470ceaad326</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-08 02:20:41</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-2041130978</payload_hash>
+        <record_name>Laptops.apply</record_name>
+        <reverted_from/>
+        <source>300ee16683552210cfe0a470ceaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-08 02:20:41</sys_created_on>
+        <sys_id>5094fab2839d6210cfe0a470ceaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196adb1ef410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-08 02:20:41</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>9094fab2109d6210e7bb1c793f183c2a</update_guid>
+        <update_guid_history>9094fab2109d6210e7bb1c793f183c2a:-2041130978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Laptops.apply">18c4beb2839d6210cfe0a470ceaad3c4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-08 02:21:30</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>7a6149e99d354b7e8e440e9b67d70939</sys_id>
+        <sys_metadata>5c94fab2839d6210cfe0a470ceaad326</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptops.apply</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_scope_delete display_value="">301fa376781f416c8fa58546d36dc510</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_5c94fab2839d6210cfe0a470ceaad326</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_5c94fab2839d6210cfe0a470ceaad326">5094fab2839d6210cfe0a470ceaad32b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-08 02:21:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

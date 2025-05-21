@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <creator_source/>
+        <description>This is default AI Search profile for Apply computer</description>
+        <exclude_from_evaluation>false</exclude_from_evaluation>
+        <genius_result_assembly/>
+        <label>apply-computer Search Profile</label>
+        <name>x_1755520_collec_0_whdzw_search_profile</name>
+        <publish_id>4b4c2134-9876-4894-b059-58d398587ca4</publish_id>
+        <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
+        <state>DRAFT</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2025-05-07 05:32:31</sys_created_on>
+        <sys_id>14e61a26f71922109230b387a9f69d57</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>apply-computer Search Profile</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_update_name>ais_search_profile_14e61a26f71922109230b387a9f69d57</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-05-08 04:00:37</sys_updated_on>
+    </ais_search_profile>
+</record_update>

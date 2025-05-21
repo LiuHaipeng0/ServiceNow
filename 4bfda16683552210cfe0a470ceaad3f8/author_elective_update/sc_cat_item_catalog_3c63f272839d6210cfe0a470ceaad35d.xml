@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="apply">6ebdae7a835d6210cfe0a470ceaad3d5</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-08 02:15:32</sys_created_on>
+        <sys_id>3c63f272839d6210cfe0a470ceaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.apply</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_3c63f272839d6210cfe0a470ceaad35d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-08 02:15:32</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</application>
+        <file_path/>
+        <instance_id>e7f2896e3b9d6290c55a348aa4e45abe</instance_id>
+        <instance_name>dev346881</instance_name>
+        <name>sc_cat_item_catalog_3c63f272839d6210cfe0a470ceaad35d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="apply">6ebdae7a835d6210cfe0a470ceaad3d5</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-08 02:15:32</sys_created_on><sys_id>3c63f272839d6210cfe0a470ceaad35d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.apply</sys_name><sys_package display_value="Collection Tracker" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package><sys_policy/><sys_scope display_value="Collection Tracker">4bfda16683552210cfe0a470ceaad3f8</sys_scope><sys_update_name>sc_cat_item_catalog_3c63f272839d6210cfe0a470ceaad35d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-08 02:15:32</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-615829186</payload_hash>
+        <record_name>Service Catalog.apply</record_name>
+        <reverted_from/>
+        <source>300ee16683552210cfe0a470ceaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-08 02:15:32</sys_created_on>
+        <sys_id>b063f272839d6210cfe0a470ceaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196adad36910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-08 02:15:32</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>f063f272879d621076b7b289b05a7c60</update_guid>
+        <update_guid_history>f063f272879d621076b7b289b05a7c60:-615829186</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.apply">0834f2b2839d6210cfe0a470ceaad357</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-08 02:19:02</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>c568bfc32c0f44cd9cafd62029e75b01</sys_id>
+        <sys_metadata>3c63f272839d6210cfe0a470ceaad35d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.apply</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_parent display_value="Apply a computer">6ebdae7a835d6210cfe0a470ceaad3d5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_scope_delete display_value="">301fa376781f416c8fa58546d36dc510</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_3c63f272839d6210cfe0a470ceaad35d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_3c63f272839d6210cfe0a470ceaad35d">b063f272839d6210cfe0a470ceaad361</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-08 02:19:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
