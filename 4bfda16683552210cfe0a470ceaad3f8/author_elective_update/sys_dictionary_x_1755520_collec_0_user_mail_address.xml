@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="mail_address" table="x_1755520_collec_0_user">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>mail address</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>true</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mail_address</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <name>x_1755520_collec_0_user</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2025-05-07 08:46:10</sys_created_on>
+        <sys_id>21334f6e83d92210cfe0a470ceaad3a3</sys_id>
+        <sys_name>mail address</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_update_name>sys_dictionary_x_1755520_collec_0_user_mail_address</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2025-05-07 08:46:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</application>
+        <file_path/>
+        <instance_id>e7f2896e3b9d6290c55a348aa4e45abe</instance_id>
+        <instance_name>dev346881</instance_name>
+        <name>sys_dictionary_x_1755520_collec_0_user_mail_address</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="mail_address" table="x_1755520_collec_0_user"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>mail address</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>true</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>mail_address</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>x_1755520_collec_0_user</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>aes.creator</sys_created_by><sys_created_on>2025-05-07 08:46:10</sys_created_on><sys_id>21334f6e83d92210cfe0a470ceaad3a3</sys_id><sys_name>mail address</sys_name><sys_package display_value="Collection Tracker" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package><sys_policy/><sys_scope display_value="Collection Tracker">4bfda16683552210cfe0a470ceaad3f8</sys_scope><sys_update_name>sys_dictionary_x_1755520_collec_0_user_mail_address</sys_update_name><sys_updated_by>aes.creator</sys_updated_by><sys_updated_on>2025-05-07 08:46:13</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1168555878</payload_hash>
+        <record_name>user.mail address</record_name>
+        <reverted_from/>
+        <source>300ee16683552210cfe0a470ceaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2025-05-07 08:46:13</sys_created_on>
+        <sys_id>02338f6e83d92210cfe0a470ceaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196a9ec8a2c0000001</sys_recorded_at>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2025-05-07 08:46:13</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>0a338f6e5dd922108ca2e1f7d462373a</update_guid>
+        <update_guid_history>0a338f6e5dd922108ca2e1f7d462373a:1168555878,b5338f6ebad922105e5fd2e4d2a7d506:409695989</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2025-05-21 02:50:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>693f616da5eb4790838b33220a8ea8d1</sys_id>
+        <sys_metadata>21334f6e83d92210cfe0a470ceaad3a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mail address</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_parent display_value="">ffd2076e83d92210cfe0a470ceaad3e1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_scope_delete display_value="">301fa376781f416c8fa58546d36dc510</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1755520_collec_0_user_mail_address</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1755520_collec_0_user_mail_address">02338f6e83d92210cfe0a470ceaad33b</sys_update_version>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2025-05-21 02:50:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="x_1755520_collec_0_apply" section_id="d06f3a2a83d92210cfe0a470ceaad30b" sys_domain="global" table="x_1755520_collec_0_apply" version="3" view="User">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>apply_user</element>
+            <position>0</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-05-07 08:32:59</sys_created_on>
+            <sys_id>1030c76a83d92210cfe0a470ceaad373</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1755520_collec_0_apply" display_value="x_1755520_collec_0_apply" name="x_1755520_collec_0_apply" sys_domain="global" view="106f3a2a83d92210cfe0a470ceaad306">d06f3a2a83d92210cfe0a470ceaad30b</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-05-07 08:32:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comment</element>
+            <position>1</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-05-07 08:32:59</sys_created_on>
+            <sys_id>1830c76a83d92210cfe0a470ceaad373</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1755520_collec_0_apply" display_value="x_1755520_collec_0_apply" name="x_1755520_collec_0_apply" sys_domain="global" view="106f3a2a83d92210cfe0a470ceaad306">d06f3a2a83d92210cfe0a470ceaad30b</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-05-07 08:32:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-05-07 08:32:59</sys_created_on>
+            <sys_id>1030c76a83d92210cfe0a470ceaad374</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1755520_collec_0_apply" display_value="x_1755520_collec_0_apply" name="x_1755520_collec_0_apply" sys_domain="global" view="106f3a2a83d92210cfe0a470ceaad306">d06f3a2a83d92210cfe0a470ceaad30b</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-05-07 08:32:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigner</element>
+            <position>3</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-05-07 08:32:59</sys_created_on>
+            <sys_id>1830c76a83d92210cfe0a470ceaad374</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1755520_collec_0_apply" display_value="x_1755520_collec_0_apply" name="x_1755520_collec_0_apply" sys_domain="global" view="106f3a2a83d92210cfe0a470ceaad306">d06f3a2a83d92210cfe0a470ceaad30b</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-05-07 08:32:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>4</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-05-07 08:32:59</sys_created_on>
+            <sys_id>1030c76a83d92210cfe0a470ceaad375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1755520_collec_0_apply" display_value="x_1755520_collec_0_apply" name="x_1755520_collec_0_apply" sys_domain="global" view="106f3a2a83d92210cfe0a470ceaad306">d06f3a2a83d92210cfe0a470ceaad30b</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-05-07 08:32:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>x_1755520_collec_0_apply</caption>
+            <header>false</header>
+            <name>x_1755520_collec_0_apply</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2025-05-07 08:29:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d06f3a2a83d92210cfe0a470ceaad30b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1755520_collec_0_apply</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Collection Tracker" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Collection Tracker">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+            <sys_update_name>sys_ui_section_d06f3a2a83d92210cfe0a470ceaad30b</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2025-05-07 08:29:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="User" name="User">106f3a2a83d92210cfe0a470ceaad306</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</application>
+        <file_path/>
+        <instance_id>e7f2896e3b9d6290c55a348aa4e45abe</instance_id>
+        <instance_name>dev346881</instance_name>
+        <name>sys_ui_section_d06f3a2a83d92210cfe0a470ceaad30b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="x_1755520_collec_0_apply" section_id="d06f3a2a83d92210cfe0a470ceaad30b" sys_domain="global" table="x_1755520_collec_0_apply" version="3" view="User"><sys_ui_element action="INSERT_OR_UPDATE"><element>apply_user</element><position>0</position><sys_created_by>aes.creator</sys_created_by><sys_created_on>2025-05-07 08:32:59</sys_created_on><sys_id>1030c76a83d92210cfe0a470ceaad373</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1755520_collec_0_apply" display_value="x_1755520_collec_0_apply" name="x_1755520_collec_0_apply" sys_domain="global" view="106f3a2a83d92210cfe0a470ceaad306">d06f3a2a83d92210cfe0a470ceaad30b</sys_ui_section><sys_updated_by>aes.creator</sys_updated_by><sys_updated_on>2025-05-07 08:32:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>comment</element><position>1</position><sys_created_by>aes.creator</sys_created_by><sys_created_on>2025-05-07 08:32:59</sys_created_on><sys_id>1830c76a83d92210cfe0a470ceaad373</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1755520_collec_0_apply" display_value="x_1755520_collec_0_apply" name="x_1755520_collec_0_apply" sys_domain="global" view="106f3a2a83d92210cfe0a470ceaad306">d06f3a2a83d92210cfe0a470ceaad30b</sys_ui_section><sys_updated_by>aes.creator</sys_updated_by><sys_updated_on>2025-05-07 08:32:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>aes.creator</sys_created_by><sys_created_on>2025-05-07 08:32:59</sys_created_on><sys_id>1030c76a83d92210cfe0a470ceaad374</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1755520_collec_0_apply" display_value="x_1755520_collec_0_apply" name="x_1755520_collec_0_apply" sys_domain="global" view="106f3a2a83d92210cfe0a470ceaad306">d06f3a2a83d92210cfe0a470ceaad30b</sys_ui_section><sys_updated_by>aes.creator</sys_updated_by><sys_updated_on>2025-05-07 08:32:59</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigner</element><position>3</position><sys_created_by>aes.creator</sys_created_by><sys_created_on>2025-05-07 08:32:59</sys_created_on><sys_id>1830c76a83d92210cfe0a470ceaad374</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1755520_collec_0_apply" display_value="x_1755520_collec_0_apply" name="x_1755520_collec_0_apply" sys_domain="global" view="106f3a2a83d92210cfe0a470ceaad306">d06f3a2a83d92210cfe0a470ceaad30b</sys_ui_section><sys_updated_by>aes.creator</sys_updated_by><sys_updated_on>2025-05-07 08:32:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>4</position><sys_created_by>aes.creator</sys_created_by><sys_created_on>2025-05-07 08:32:59</sys_created_on><sys_id>1030c76a83d92210cfe0a470ceaad375</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="x_1755520_collec_0_apply" display_value="x_1755520_collec_0_apply" name="x_1755520_collec_0_apply" sys_domain="global" view="106f3a2a83d92210cfe0a470ceaad306">d06f3a2a83d92210cfe0a470ceaad30b</sys_ui_section><sys_updated_by>aes.creator</sys_updated_by><sys_updated_on>2025-05-07 08:32:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>x_1755520_collec_0_apply</caption><header>false</header><name>x_1755520_collec_0_apply</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>aes.creator</sys_created_by><sys_created_on>2025-05-07 08:29:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d06f3a2a83d92210cfe0a470ceaad30b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1755520_collec_0_apply</sys_name><sys_overrides/><sys_package display_value="Collection Tracker" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package><sys_policy/><sys_scope display_value="Collection Tracker">4bfda16683552210cfe0a470ceaad3f8</sys_scope><sys_update_name>sys_ui_section_d06f3a2a83d92210cfe0a470ceaad30b</sys_update_name><sys_updated_by>aes.creator</sys_updated_by><sys_updated_on>2025-05-07 08:29:27</sys_updated_on><sys_user/><title>false</title><view display_value="User" name="User">106f3a2a83d92210cfe0a470ceaad306</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>627175139</payload_hash>
+        <record_name>apply</record_name>
+        <reverted_from/>
+        <source>300ee16683552210cfe0a470ceaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2025-05-07 08:32:59</sys_created_on>
+        <sys_id>d830c76a83d92210cfe0a470ceaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196a9e06dd80000001</sys_recorded_at>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2025-05-07 08:32:59</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>1430c76a7ed92210b09ebbc49ffb0df3</update_guid>
+        <update_guid_history>1430c76a7ed92210b09ebbc49ffb0df3:627175139,ec6f3a2aa3d92210aacf13c783e3a50d:-138137513</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2025-05-21 03:01:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1f3811dc5ff34f56a476bf4588022e84</sys_id>
+        <sys_metadata>d06f3a2a83d92210cfe0a470ceaad30b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1755520_collec_0_apply</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_parent display_value="Computer Request">2672bdaa83552210cfe0a470ceaad3db</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_scope_delete display_value="">301fa376781f416c8fa58546d36dc510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_d06f3a2a83d92210cfe0a470ceaad30b</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_d06f3a2a83d92210cfe0a470ceaad30b">d830c76a83d92210cfe0a470ceaad3f3</sys_update_version>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2025-05-21 03:01:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
