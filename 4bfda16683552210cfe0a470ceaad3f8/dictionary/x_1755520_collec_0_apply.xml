@@ -2,8 +2,8 @@
     <element db_object_id="2672bdaa83552210cfe0a470ceaad3db" label="Computer Request" max_length="40" name="x_1755520_collec_0_apply" text_index="true" type="collection">
         <element label="Computer Model" mandatory="true" max_length="40" name="apply_type" type="string"/>
         <element label="Comment" max_length="40" name="comment" type="string"/>
-        <element label="Apply User" mandatory="true" max_length="40" name="apply_user" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:gs.getUser().getEmail();" label="Apply User" mandatory="true" max_length="40" name="apply_user" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded" label="Number" max_length="40" name="number" type="string"/>
         <element choice="3" default="applied" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="rejected" sequence="2" value="rejected"/>
@@ -13,7 +13,7 @@
         </element>
         <element label="Apply Date" max_length="255" name="apply_date" type="glide_date"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element display="true" label="Assigner" mandatory="true" max_length="40" name="assigner" type="string"/>
+        <element default="javascript:gr.get(current.assigner);" display="true" label="Assigner" mandatory="true" max_length="40" name="assigner" type="string"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

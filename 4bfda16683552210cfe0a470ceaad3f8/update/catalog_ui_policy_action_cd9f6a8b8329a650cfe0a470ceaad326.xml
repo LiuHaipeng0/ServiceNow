@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Request a computer">6ebdae7a835d6210cfe0a470ceaad3d5</catalog_item>
+        <catalog_variable>IO:1328baf6839d6210cfe0a470ceaad34f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-21 06:53:03</sys_created_on>
+        <sys_id>cd9f6a8b8329a650cfe0a470ceaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>apply_user</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_cd9f6a8b8329a650cfe0a470ceaad326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-21 06:53:03</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Always make 'apply_user' non-mandatory &amp; hidden ">874fe28b8329a650cfe0a470ceaad37e</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>apply_user</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=cd9f6a8b8329a650cfe0a470ceaad326"/>
+</record_update>
