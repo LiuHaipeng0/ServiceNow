@@ -3,6 +3,5 @@
         <element label="Computer Number" max_length="40" name="computer_no" type="string"/>
         <element label="Assigner" max_length="40" name="assigner" type="string"/>
         <element label="Computer Model" max_length="40" name="computer_type" type="string"/>
-        <element label="Apply Status" max_length="40" name="apply_status" type="integer"/>
     </element>
 </database>
