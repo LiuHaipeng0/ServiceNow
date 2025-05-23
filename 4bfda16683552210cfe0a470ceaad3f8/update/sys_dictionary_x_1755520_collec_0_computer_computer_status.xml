@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="apply_user" table="x_1755520_collec_0_apply">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="computer_status" table="x_1755520_collec_0_computer">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Apply User</column_label>
+        <column_label>Computer Status</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:gs.getUser().getEmail();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,16 +21,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>apply_user</element>
+        <element>computer_status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
+        <internal_type display_value="Choice">choice</internal_type>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_1755520_collec_0_apply</name>
+        <name>x_1755520_collec_0_computer</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -45,15 +45,15 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>aes.creator</sys_created_by>
-        <sys_created_on>2025-05-07 02:55:21</sys_created_on>
-        <sys_name>Apply User</sys_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 08:24:38</sys_created_on>
+        <sys_name>Computer Status</sys_name>
         <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
-        <sys_update_name>sys_dictionary_x_1755520_collec_0_apply_apply_user</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1755520_collec_0_computer_computer_status</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-23 06:50:31</sys_updated_on>
+        <sys_updated_on>2025-05-23 08:24:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
