@@ -3,7 +3,7 @@
         <canvas display_value="">9bf61e2683192210cfe0a470ceaad3ce</canvas>
         <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
         <component_props>{"table":"x_1755520_collec_0_computer","columnPreferenceKey":"","fixedQuery":"","followFilters":true,"listTitle":"Computer","columns":"computer_no,computer_type,request_number,assigner,computer_status","maxColumns":7,"query":"active=true","groupByField":"","limit":null,"hideViewAll":false,"hideHighlightedValues":false,"showBorder":false,"bare":true,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"isDashboard":true,"id":"columns","value":"computer_no,computer_type,request_number,assigner,computer_status","propLabel":"Columns","noDebounce":true}</component_props>
-        <h>13</h>
+        <h>16</h>
         <name/>
         <stored_component/>
         <sys_class_name>par_dashboard_widget</sys_class_name>
@@ -12,7 +12,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>20f404138319e210cfe0a470ceaad3b8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
@@ -20,7 +20,7 @@
         <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
         <sys_update_name>par_dashboard_widget_20f404138319e210cfe0a470ceaad3b8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-23 08:58:12</sys_updated_on>
+        <sys_updated_on>2025-05-26 08:29:14</sys_updated_on>
         <visualization/>
         <w>48</w>
         <widget_props/>

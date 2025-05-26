@@ -7,6 +7,7 @@
         <element choice="3" default="applied" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="completed" sequence="3" value="completed"/>
                 <element inactive_on_update="false" label="rejected" sequence="2" value="rejected"/>
                 <element inactive_on_update="false" label="applied" sequence="0" value="applied"/>
             </choice>
