@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function initializeSteps() {
+  // 步骤导航点击事件
+  document.querySelectorAll('.step').forEach(step => {
+    step.addEventListener('click', function() {
+      const stepNumber = this.dataset.step;
+      
+      // 更新导航状态
+      document.querySelectorAll('.step').forEach(s => 
+        s.classList.remove('active'));
+      this.classList.add('active');
+      
+      // 显示对应内容
+      document.querySelectorAll('.step-content').forEach(content => {
+        content.style.display = content.dataset.step === stepNumber ? 
+          'block' : 'none';
+      });
+      
+      // 更新服务器端当前步骤（可选）
+      g_form.setValue('current_step', stepNumber);
+    });
+  });
+
+  // 下拉框变更处理
+  document.querySelectorAll('select').forEach(select => {
+    select.addEventListener('change', function() {
+      g_form.save(); // 自动保存表单数据
+    });
+  });
+}
+
+// 初始化步骤
+initializeSteps();]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container {
+  padding: 20px;
+}
+
+.step-nav {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.step-home {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 15px 40px;
+  background: #f9f9f9;
+  margin-right: 0px;
+  clip-path: polygon(0% 40%, 0% 0%, 80% 0%, 100% 40%, 100% 100%, 0% 100%);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.step {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 15px 40px;
+  background: #f9f9f9;
+  margin-right: 0px;
+  clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%, 15% 50%);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.step[data-step="5"] {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 15px 40px;
+  background: #f9f9f9;
+  margin-right: 0px;
+  clip-path: polygon(15% 50%, 0% 0%, 100% 0%, 100% 100%, 0% 100%, 15% 50%);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.step.active {
+  background: #007eff;
+  color: white;
+}
+
+.step:not(:first-child) {
+  margin-left: -15px;
+}
+
+.step:hover:not(.active) {
+  background: #b3d4fc;
+}
+
+.step-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.step-content.active {
+  display: block;
+}
+
+.form-control {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>catalog_item-2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Catalog Item-2</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  // 初始化步骤状态（示例）
+  //if (!g_form.getValue('current_step')) {
+  //  g_form.setValue('current_step', '1');
+  //}
+  
+  // 动态生成下拉选项（示例）
+  var options = [
+    {value: 'opt1', label: 'Option 1'},
+    {value: 'opt2', label: 'Option 2'}
+  ];
+  
+  var gr = new GlideRecord('table_name');
+  gr.query();
+  while (gr.next()) {
+    options.push({
+      value: gr.getValue('sys_id'),
+      label: gr.getDisplayValue('name')
+    });
+  }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 08:32:12</sys_created_on>
+        <sys_id>3fcfb1c983312290cfe0a470ceaad3ed</sys_id>
+        <sys_mod_count>49</sys_mod_count>
+        <sys_name>Catalog Item-2</sys_name>
+        <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_update_name>sp_widget_3fcfb1c983312290cfe0a470ceaad3ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 06:56:33</sys_updated_on>
+        <template><![CDATA[<div class="container">
+  
+  <div class="step-nav">
+    <div class="step-home">
+      <img src="https://img.icons8.com/ios-filled/24/000000/home.png" alt="Home">
+    </div>
+    <div class="step active" data-step="1">Step1</div>
+    <div class="step" data-step="2">Step2</div>
+    <div class="step" data-step="3">Step3</div>
+    <div class="step" data-step="4">Step4</div>
+    <div class="step" data-step="5">Step5</div>
+  </div>
+
+  <!-- 步骤内容 -->
+  <div class="step-content" data-step="1">
+    <label>Geo</label>
+    <select class="form-control" id="step1_geo">
+      <option value="">Select Option 1</option>
+      <option value="opt1">Option 1</option>
+      <option value="opt2">Option 2</option>
+    </select>
+    <label>Country</label>
+    <select class="form-control" id="step1_country">
+      <option value="">Select Option 1</option>
+      <option value="opt1">Option 1</option>
+      <option value="opt2">Option 2</option>
+    </select>
+    <label>Company</label>
+    <select class="form-control" id="step1_company">
+      <option value="">Select Option 1</option>
+      <option value="opt1">Option 1</option>
+      <option value="opt2">Option 2</option>
+    </select>
+  </div>
+
+  <div class="step-content" data-step="2" style="display:none;">
+    <select class="form-control" id="step2_select">
+      <option value="">Select Option 2</option>
+      <option value="opt3">Option 3</option>
+      <option value="opt4">Option 4</option>
+    </select>
+  </div>
+
+  <div class="step-content" data-step="3" style="display:none;">
+    <select class="form-control" id="step2_select">
+      <option value="">Select Option 2</option>
+      <option value="opt3">Option 3</option>
+      <option value="opt4">Option 4</option>
+    </select>
+  </div>
+  
+  <div class="step-content" data-step="4" style="display:none;">
+    <select class="form-control" id="step2_select">
+      <option value="">Select Option 2</option>
+      <option value="opt3">Option 3</option>
+      <option value="opt4">Option 4</option>
+    </select>
+  </div>
+  
+  <div class="step-content" data-step="5" style="display:none;">
+    <select class="form-control" id="step2_select">
+      <option value="">Select Option 2</option>
+      <option value="opt3">Option 3</option>
+      <option value="opt4">Option 4</option>
+    </select>
+  </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>3fcfb1c983312290cfe0a470ceaad3ed</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 08:32:12</sys_created_on>
+        <sys_id>f7cfb1c983312290cfe0a470ceaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 08:32:12</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

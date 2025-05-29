@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <attributes/>
-        <cat_item display_value="Request a computer">6ebdae7a835d6210cfe0a470ceaad3d5</cat_item>
+        <cat_item display_value="Section Switch">c9741c7583f1e290cfe0a470ceaad3fd</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -22,7 +22,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>apply_user</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -38,28 +38,28 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
-        <map_to_field>true</map_to_field>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>apply_user</name>
+        <name>company</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>100</order>
+        <order>5</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>What is your mail address ?</question_text>
+        <question_text>Company</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_1755520_collec_0_apply</record_producer_table>
+        <record_producer_table/>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -77,25 +77,25 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-08 02:37:30</sys_created_on>
-        <sys_id>1328baf6839d6210cfe0a470ceaad34f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>What is your mail address ?</sys_name>
+        <sys_created_on>2025-05-29 08:51:04</sys_created_on>
+        <sys_id>3e27947983f1e290cfe0a470ceaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Company</sys_name>
         <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
-        <sys_update_name>item_option_new_1328baf6839d6210cfe0a470ceaad34f</sys_update_name>
+        <sys_update_name>item_option_new_3e27947983f1e290cfe0a470ceaad3c0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-27 01:25:05</sys_updated_on>
+        <sys_updated_on>2025-05-29 08:51:04</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>6</type>
+        <type>5</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <validate_regex display_value="Email">e005e481530020107d13ddeeff7b12e5</validate_regex>
+        <validate_regex/>
         <variable_name/>
         <variable_set/>
         <variable_width/>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=1328baf6839d6210cfe0a470ceaad34f"/>
-    <fx_price action="delete_multiple" query="id=1328baf6839d6210cfe0a470ceaad34f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=3e27947983f1e290cfe0a470ceaad3c0"/>
+    <fx_price action="delete_multiple" query="id=3e27947983f1e290cfe0a470ceaad3c0"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="CNY">CNY</currency>
         <field>price_if_checked</field>
-        <id>1328baf6839d6210cfe0a470ceaad34f</id>
+        <id>3e27947983f1e290cfe0a470ceaad3c0</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-08 02:37:31</sys_created_on>
-        <sys_id>b668fef6839d6210cfe0a470ceaad34d</sys_id>
+        <sys_created_on>2025-05-29 08:51:04</sys_created_on>
+        <sys_id>eb47dc7983f1e290cfe0a470ceaad36a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-08 02:37:31</sys_updated_on>
+        <sys_updated_on>2025-05-29 08:51:04</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="CNY">CNY</currency>
         <field>rec_price_if_checked</field>
-        <id>1328baf6839d6210cfe0a470ceaad34f</id>
+        <id>3e27947983f1e290cfe0a470ceaad3c0</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-08 02:37:31</sys_created_on>
-        <sys_id>3a68fef6839d6210cfe0a470ceaad34c</sys_id>
+        <sys_created_on>2025-05-29 08:51:04</sys_created_on>
+        <sys_id>6347dc7983f1e290cfe0a470ceaad36a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-08 02:37:31</sys_updated_on>
+        <sys_updated_on>2025-05-29 08:51:04</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

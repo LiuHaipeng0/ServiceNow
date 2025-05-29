@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3d08a72d83fda290cfe0a470ceaad331" label="createnotes_note" max_length="40" name="x_1755520_collec_0_createnotes_note" type="collection">
+        <element display="true" label="user" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="note" max_length="40" name="note" type="string"/>
+    </element>
+</database>

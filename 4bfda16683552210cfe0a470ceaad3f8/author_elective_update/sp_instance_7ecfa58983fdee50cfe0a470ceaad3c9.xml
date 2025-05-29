@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">72cfa58983fdee50cfe0a470ceaad3c7</sp_column>
+        <sp_widget display_value="My Hello World 1">29cf290983fdee50cfe0a470ceaad333</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 07:22:14</sys_created_on>
+        <sys_id>7ecfa58983fdee50cfe0a470ceaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_update_name>sp_instance_7ecfa58983fdee50cfe0a470ceaad3c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 07:22:14</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=7ecfa58983fdee50cfe0a470ceaad3c9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</application>
+        <file_path/>
+        <instance_id>e7f2896e3b9d6290c55a348aa4e45abe</instance_id>
+        <instance_name>dev346881</instance_name>
+        <name>sp_instance_7ecfa58983fdee50cfe0a470ceaad3c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">72cfa58983fdee50cfe0a470ceaad3c7</sp_column><sp_widget display_value="My Hello World 1">29cf290983fdee50cfe0a470ceaad333</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-27 07:22:14</sys_created_on><sys_id>7ecfa58983fdee50cfe0a470ceaad3c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package><sys_policy/><sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope><sys_update_name>sp_instance_7ecfa58983fdee50cfe0a470ceaad3c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-27 07:22:14</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=7ecfa58983fdee50cfe0a470ceaad3c9"/></record_update>]]></payload>
+        <payload_hash>1677215568</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ab7db83b83a96a50cfe0a470ceaad349</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 07:22:15</sys_created_on>
+        <sys_id>07cfa58983fdee50cfe0a470ceaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197109ed9b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 07:22:15</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>0bcfa589d0fdee5087347d8a1a5456cb</update_guid>
+        <update_guid_history>0bcfa589d0fdee5087347d8a1a5456cb:1677215568</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1dc836d983396290cfe0a470ceaad366</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 07:19:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2c46f03f8d4d4d3994f29543c0ad1219</sys_id>
+        <sys_metadata>7ecfa58983fdee50cfe0a470ceaad3c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
+        <sys_scope_delete display_value="">301fa376781f416c8fa58546d36dc510</sys_scope_delete>
+        <sys_update_name>sp_instance_7ecfa58983fdee50cfe0a470ceaad3c9</sys_update_name>
+        <sys_update_version display_value="sp_instance_7ecfa58983fdee50cfe0a470ceaad3c9">07cfa58983fdee50cfe0a470ceaad3cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 07:19:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
