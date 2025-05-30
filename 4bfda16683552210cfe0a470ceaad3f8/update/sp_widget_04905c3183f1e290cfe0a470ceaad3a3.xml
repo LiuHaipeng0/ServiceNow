@@ -48,6 +48,11 @@ padding:6px 12px 6px 24px;
 font-size:16px;
 }
 
+.btn-breadcrumb .btn.active {
+  background-color: #007eff;
+  color: white;
+}
+
 .btn-breadcrumb .btn:first-child {
 padding:6px 6px 6px 10px;
 }
@@ -90,19 +95,19 @@ padding:6px 18px 6px 24px;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-29 08:21:36</sys_created_on>
         <sys_id>04905c3183f1e290cfe0a470ceaad3a3</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Catalog Item-demo2</sys_name>
         <sys_package display_value="Catalog Item-1" source="x_1755520_collec_0">4bfda16683552210cfe0a470ceaad3f8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Catalog Item-1">4bfda16683552210cfe0a470ceaad3f8</sys_scope>
         <sys_update_name>sp_widget_04905c3183f1e290cfe0a470ceaad3a3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-29 08:33:51</sys_updated_on>
+        <sys_updated_on>2025-05-30 06:06:25</sys_updated_on>
         <template><![CDATA[<div>
     <div class="btn-group btn-breadcrumb">
         <a ng-click="c.setTabIndex(0)" 
            class="btn btn-default" 
-           ng-class="{'active': c.selectedStep === 0}">
+           ng-class="">
             <i class="glyphicon glyphicon-home"></i>
         </a>
         <a ng-click="c.setTabIndex(1)" 
